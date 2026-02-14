@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaBell,FaUser } from "react-icons/fa";
+import { FaAngleDoubleRight, FaAngleRight, FaArrowRight, FaBell,FaCircle,FaDollarSign,FaRecordVinyl,FaUser } from "react-icons/fa";
 
 const TopNavigation: React.FC = () => {
   return (
@@ -45,19 +45,17 @@ const TopNavigation: React.FC = () => {
        {/* Status Indicators */}
       <div className="flex items-center gap-3 mb-4">
         <div className="flex items-center gap-2 bg-navy-900 text-white ml-3 px-9 py-1.5 rounded-full text-sm font-medium">
-          <span className="w-2 h-2 bg-white rounded-full"></span>
+          <FaRecordVinyl className="w-2 h-2 bg-white "/>
           <span>S - 01</span>
-          <button className="ml-2 text-red-400 hover:text-red-300">
-            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
-              <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </button>
+         
+            <FaDollarSign  className="w-5 h-3 ml-2 text-white-400 bg-red hover:text-red-300 rounded-full "/>
+         
         </div>
         
         <button className="p-2 hover:bg-gray-200 rounded">
-          <svg className="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
+          
+          <FaAngleDoubleRight className="w-5 h-5 "/>
+          
         </button>
 
         <div className="flex items-center gap-2 text-gray-600 px-3 py-1.5 text-sm">
@@ -73,11 +71,7 @@ const TopNavigation: React.FC = () => {
           </svg>
         </button>
 
-        <button className="p-2 text-red-500 hover:bg-red-50 rounded">
-          <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
-            <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
-          </svg>
-        </button>
+        
       </div>
     </header>
   );
