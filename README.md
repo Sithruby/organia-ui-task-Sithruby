@@ -88,7 +88,7 @@ organia-ui-task/
 │   ├── layouts/                # Layout components
 │   │   └── MainLayout.tsx      # Main application layout
 │   ├── App.tsx                 # Root component
-│   ├── index.tsx               # Application entry point
+│   ├── Main.tsx               # Application entry point
 │   └── index.css               # Global styles + Tailwind
 ├── tailwind.config.js          # Tailwind configuration
 ├── tsconfig.json               # TypeScript configuration
@@ -107,7 +107,7 @@ organia-ui-task/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/organia-ui-task.git
+   https://github.com/Sithruby/organia-ui-task-Sithruby.git
    cd organia-ui-task
    ```
 
@@ -154,7 +154,7 @@ The optimized production build will be in the `build/` directory.
 ## Screenshots
 
 ### Desktop View
-![Desktop Screenshot](screenshots/desktop-view.png)
+![alt text](Desktop.png)
 
 ### Tablet View
 ![Tablet Screenshot](screenshots/tablet-view.png)
@@ -191,18 +191,9 @@ The application uses a professional color palette:
 - [ ] Export/Import functionality
 - [ ] Print-friendly layouts
 
-## Browser Support
 
-- ✅ Chrome 90+
-- ✅ Firefox 88+
-- ✅ Safari 14+
-- ✅ Edge 90+
 
-## Performance
 
-- Initial load: ~2s
-- Interactive time: <1s
-- Lighthouse score: 90+
 
 ## Development Notes
 
@@ -213,22 +204,17 @@ The application uses a professional color palette:
 - Clean code principles followed
 - Proper prop typing
 
-### Best Practices
-- Semantic HTML elements
-- Accessible form labels
-- Keyboard navigation support
-- Mobile-first responsive design
-- Performance-optimized rendering
 
 ## Git Commit History
 
 ```
+
 #1, project initialized with React and Tailwind CSS
-#2, sidebar and top navigation implemented
+#2 sidebar and top navigation implemented
+#3 Top navigation Updated and Tabnaviagtion implemented
 #3, main details form completed with map integration
-#4, sub details section added
-#5, responsive layout adjustments
-#6, final UI polish and README documentation
+#Subdetail section added
+#5, final UI polish and README documentation
 ```
 
 ## Contributing
