@@ -82,10 +82,10 @@ organia-ui-task/
 │   │   ├── Sidebar.tsx         # Left sidebar navigation
 │   │   ├── TopNavigation.tsx   # Header with user profile
 │   │   ├── TabNavigation.tsx   # Tab controls
-│   │   ├── DetailsCard.tsx     # Main details form card
+│   │   ├── Detailscard.tsx     # Main details form card
 │   │   ├── MapComponent.tsx    # Interactive map
 │   │   └── SubDetails.tsx      # Product details form
-│   ├── layouts/                # Layout components
+│   ├── layout/                # Layout components
 │   │   └── MainLayout.tsx      # Main application layout
 │   ├── App.tsx                 # Root component
 │   ├── Main.tsx               # Application entry point
@@ -154,15 +154,15 @@ The optimized production build will be in the `build/` directory.
 ## Screenshots
 
 ### Desktop View
-![alt text](Desktop.png)
+![Desktop](Desktop.png)
 
 ### Tablet View
-![Tablet Screenshot](screenshots/tablet-view.png)
+![Tablet]](tablet.png)
 
 ### Mobile View
-![Mobile Screenshot](screenshots/mobile-view.png)
+![mobile](mobile.png)
 
-*Note: Please add actual screenshots to a `screenshots/` directory*
+
 
 ## Color Scheme
 
@@ -182,14 +182,7 @@ The application uses a professional color palette:
 - ✅ Responsive design complete
 - ✅ Form validation (UI indicators)
 
-### Future Enhancements
-- [ ] Backend API integration
-- [ ] Form submission handling
-- [ ] Advanced form validation with error messages
-- [ ] Data persistence
-- [ ] Multiple tab content management
-- [ ] Export/Import functionality
-- [ ] Print-friendly layouts
+
 
 
 
