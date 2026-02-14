@@ -157,7 +157,7 @@ The optimized production build will be in the `build/` directory.
 ![Desktop](Desktop.png)
 
 ### Tablet View
-![Tablet]](tablet.png)
+![Tablet](tablet.png)
 
 ### Mobile View
 ![mobile](mobile.png)
